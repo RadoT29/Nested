@@ -3,8 +3,8 @@ class Consumer:
     def __init__(self):
         self.count = 0
 
-    def increment(self):
-        self.count += 1
+    def increment(self, amount):
+        self.count += amount
 
     def decrement(self):
         self.count -= 1
